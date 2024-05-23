@@ -1,4 +1,8 @@
-<p align="center">Laravel 11 Fortify Authentication Tutorial</p>
+<p align="center">
+<h1>
+Laravel 11 Fortify Authentication Tutorial
+</h1>
+</p>
 
 ## Download the code
 
