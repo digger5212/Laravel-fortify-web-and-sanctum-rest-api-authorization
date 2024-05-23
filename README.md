@@ -1,3 +1,43 @@
+<p align="center">Laravel 11 Fortify Authentication Tutorial</p>
+
+## Download the code
+
+- git clone the code
+
+## Make sure you mysql serve is up.
+
+## Update SMTP Details and Database in .env File
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=homestead
+DB_USERNAME=homestead
+DB_PASSWORD=secret
+
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME=yourgmail@gmail.com
+MAIL_PASSWORD="xxxx xxxx xxxx xxxx"
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS=yourgmail@gmail.com
+MAIL_FROM_NAME="${APP_NAME}"
+```
+
+### Install laravel
+- composer install
+- php artisan migrate
+- php artisan serve
+
+## Installed assets 
+- npm install
+- npm run dev
+
+## Test
+Now, go to your web browser, type the given URL and view the app output
+http://localhost:8000/home
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
