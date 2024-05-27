@@ -1,6 +1,6 @@
 <p align="center">
 <h1>
-Laravel 11 Fortify & Sanctum Authentication Tutorial
+Laravel 11 Fortify web auth & Sanctum rest api Tutorial
 </h1>
 </p>
 
