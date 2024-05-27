@@ -1,6 +1,6 @@
 <p align="center">
 <h1>
-Laravel 11 Fortify Authentication Tutorial
+Laravel 11 Fortify & Sanctum Authentication Tutorial
 </h1>
 </p>
 
@@ -38,9 +38,29 @@ MAIL_FROM_NAME="${APP_NAME}"
 - npm install
 - npm run dev
 
-## Test
+## Fortify web Test
 Now, go to your web browser, type the given URL and view the app output
 http://localhost:8000/home
+
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+
+## Sanctum API Test
+Now, go to apiPost test api
+Post
+http://localhost:8000/register
+Post
+http://localhost:8000/login
+
+```
+'headers' => [
+    'Accept' => 'application/json',
+    'Authorization' => 'Bearer '.$accessToken,
+]
+```
+Post
+http://localhost:8000/products
+Get
+http://localhost:8000/register
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
